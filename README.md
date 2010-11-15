@@ -1,6 +1,6 @@
 # Uuid lets you generate and validate Universally Unique Identifiers.
 
-In its simplest form, this lib lets you generate raw UUID formatted strings:
+In its simplest form, Uuid lets you generate raw UUID formatted strings:
 
     Uuid.raw();
     // -> '6fdf6ffced7794fa407ea7b86ed9e59d'
@@ -37,14 +37,14 @@ Once you have a `Uuid` object, you can't change its value (thanks ES5!):
     uuid.value;
     // -> '6fdf6ffced7794fa407ea7b86ed9e59d'
 
-To instantiate an Uuid object using an existing Uuid string, use the constructor:
+To instantiate a Uuid object using an existing UUID string, use the constructor:
 
     var uuid = new Uuid('6fdf6ffced7794fa407ea7b86ed9e59d');
 
 You can check the equality of two different Uuid objects using the `equals`
 instance method.
 
-Compare a Uuid object to a uuid string:
+Compare a Uuid object to a UUID string:
 
     uuid.equals('6fdf6ffced7794fa407ea7b86ed9e59d');
     // -> true
@@ -57,3 +57,10 @@ Compare two Uuid objects:
 ## Installation
 
 You can use npm to install uuid: `npm install uuid`
+
+## But what if I need a GUID, not a UUID?
+
+There's also a [Guid](https://github.com/dandean/guid) library which has the
+**exact** same functionality, but for GUID's:
+[https://github.com/dandean/guid](https://github.com/dandean/guid)
+
