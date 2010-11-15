@@ -1,22 +1,22 @@
-{ "name" : "uuid"
-, "description" : "A Uuid generator and validator."
-, "version" : "0.0.5"
-, "homepage" : "http://github.com/dandean/uuid"
+{ "name" : "uuid-lib"
+, "description" : "A UUID generator and validator."
+, "version" : "0.0.6"
+, "homepage" : "http://github.com/dandean/uuid-lib"
 , "author" : "Dan Dean <me@dandean.com> (http://dandean.com)"
 , "contributors" : []
 , "repository" :
   { "type" : "git"
-  , "url" : "http://github.com/dandean/uuid.git"
+  , "url" : "http://github.com/dandean/uuid-lib.git"
   }
 , "bugs" :
   { "mail" : "me@dandean.com"
-  , "web" : "http://github.com/dandean/uuid/issues"
+  , "web" : "http://github.com/dandean/uuid-lib/issues"
   }
-, "main" : "uuid"
+, "main" : "uuid-lib"
 , "engines" : { "node" : ">=0.2.0" }
 , "licenses" :
   [ { "type" : "MIT"
-    , "url" : "http://github.com/dandean/uuid/raw/master/LICENSE"
+    , "url" : "http://github.com/dandean/uuid-lib/raw/master/LICENSE"
     }
   ]
 }
