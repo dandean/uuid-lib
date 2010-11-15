@@ -56,7 +56,7 @@ Compare two Uuid objects:
 
 ## Installation
 
-You can use npm to install uuid: `npm install uuid`
+You can use npm to install uuid: `npm install uuid-lib`
 
 ## But what if I need a GUID, not a UUID?
 
